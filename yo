@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3</title>
+    <meta name="description" content="esta es la practica de la estructura basica">
+    <meta name="keywords" content="3c,fisico-matematico">
+    <meta name="author" content="Jessica Joselyn Ulloa Campos">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+
+    <style>
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 40px;
+}
+
+h1{
+    color: #2c3e50;
+    text-align: center;
+}
+
+h2{
+    color: #34495e;
+}
+
+p{
+    font-size: 18px;
+}
+
+ul{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+ol{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Pagina web</h1>
+    <p>esta pagina incluye los elemtos basicos con estilo css</p>
+    <h2>mis comidas favoritas</h2>
+    <ul>
+    <li>pizza</li>
+    <li>boneless</li>
+    <li>lasaña</li>
+    <li>enchiladas suizas</li>
+    <li>milanesa de pollo</li>
+    <li>enmoladas</li>
+    <li>papas</li>
+    <li>hamburguesa</li>
+    <li>chilaquiles</li>
+    <li>sushi</li>
+    </ul>  
+    <h2>pasos para aprender html</h2>
+    <ol>
+        <li>aprender etiquetas</li>
+        <li>practicar</li>
+        <li>conocer frameworks</li>
+    </ol>
+    <h2>imagen de ejemplo</h2>
+    <img src="img/descarga.png" alt="imagen informativa">
+    <br>
+    <a href="http://www.google.com" target="_blank">Ir a google</a>
+    <h2>video local</h2>
+    <video width="400" controls></video>
+    <source src="video/Download.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
